@@ -1,0 +1,140 @@
+.main{
+    font-family: "Roboto Light";
+    color: white;
+}
+.main #nom{
+    float:left;
+    background-color: powderblue;
+    width:400px;
+    height: 200px;
+    text-align: center;
+    line-height: 100px;
+}
+.main #profil{
+    float:left;
+    background-color: cadetblue;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 240px;
+    }
+.main #monaco{
+    clear:both;
+    float:left;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 280px;
+}
+.main #psg{
+    float: left;
+    background-color: #305fbc;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 270px;
+}
+.main #edf{
+    float: left;
+    background-color: #15209f;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 270px;
+}
+.main #insta{
+    background-color: #d42e7a;
+    clear:both;
+    float: left;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 240px;
+}
+.main #snap{
+    float:left;
+    background-color: #fdfc00;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 240px;
+}
+.main #twitter{
+    float:left;
+    background-color: #52a2f3;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 240px;
+}
+i{
+    color: white;
+    font-size:350%;
+    transition: 0s;
+}
+i:hover{
+    transform: scale(1.1);
+}
+#monaco img{
+    width: 25%;
+    transition: 0s;
+}
+#monaco img:hover{
+    transform:scale(1.1);
+}
+#psg img{
+    width: 35%;
+    transition: 0s;
+}
+#psg img:hover{
+    transform: scale(1.1);
+}
+#edf img{
+    width: 28%;
+    transition: 0s;
+}
+#edf img:hover{
+    transform: scale(1.1);
+}
+.main h3{
+    line-height: 0px;
+}
+@media(max-width:1388px) {
+    .main{
+        width: 100%;
+    }
+}
+@media(max-width:812px) {
+    .main > a {
+        display: none; }
+    i:hover{
+        width: 80%;
+        display: block;
+        margin: 10px auto;
+    }
+    .main #nom{
+        width: 100%;
+    }
+    .main #profil{
+        width: 100%;
+    }
+    .main #monaco{
+        width: 100%;
+    }
+    .main #psg{
+        width: 100%;
+    }
+    .main #edf{
+        width: 100%;
+    }
+    .main #insta{
+        width: 100%;
+    }
+    .main #snap{
+        width: 100%;
+    }
+    .main #twitter{
+        width: 100%;
+    }
+}
