@@ -1,6 +1,8 @@
 .main{
     font-family: "Roboto Light";
     color: white;
+    width: 90%;
+    margin: auto;
 }
 .main #nom{
     float:left;
@@ -137,4 +139,12 @@ i:hover{
     .main #twitter{
         width: 100%;
     }
+}
+.main #photo{
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+}
+.main #photo:hover{
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
 }
