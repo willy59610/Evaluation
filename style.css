@@ -1,7 +1,7 @@
 .main{
-    font-family: "Roboto Light";
+    font-family: "Roboto Light",sans-serif;
     color: white;
-    width: 90%;
+    width: 80%;
     margin: auto;
 }
 .main #nom{
@@ -139,12 +139,4 @@ i:hover{
     .main #twitter{
         width: 100%;
     }
-}
-.main #photo{
-    filter: grayscale(1);
-    -webkit-filter: grayscale(1);
-}
-.main #photo:hover{
-    filter: grayscale(0);
-    -webkit-filter: grayscale(0);
 }
